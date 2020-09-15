@@ -7,6 +7,7 @@
 ## Acronym
 
 ## Web tool
+* [seoptimer | 3 Times free before a popup $$](https://www.seoptimer.com/https-redirect)
 
 * [Redirect-Checker](http://www.redirect-checker.org/index.php)
 
