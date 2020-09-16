@@ -75,3 +75,6 @@ mkdir /var/www/site{A,B}
 ````bash
 systemctl reload apache2
 ````
+
+## O/P
+[<img src="https://i.imgur.com/IdgVkH4.png">](https://i.imgur.com/IdgVkH4.png)
