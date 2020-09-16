@@ -22,7 +22,8 @@ a2enmod ssl
 systemctl restart apache2
 ````
 
-## Create keys (openSSl)
+## OpenSSL
+### Create keys 
 ````bash
 openssl genrsa -out /etc/ssl/certs/siteB.key 2048
 openssl req -new -key /etc/ssl/certs/siteB.key -out /etc/ssl/certs/siteB.csr
@@ -35,7 +36,7 @@ siteB.com
 help@pc-aide.com
 ````
 
-## Private key
+### Private key
 ````bash
 openssl x509 -req -days 365 -in /etc/ssl/certs/siteB.csr -signkey /etc/ssl/certs/siteB.key -out /etc/ssl/certs/siteB.crt
 ````
