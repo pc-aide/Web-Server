@@ -77,4 +77,6 @@ systemctl reload apache2
 ````
 
 ## O/P
+* Register domain : Godaddy
+
 [<img src="https://i.imgur.com/IdgVkH4.png">](https://i.imgur.com/IdgVkH4.png)
