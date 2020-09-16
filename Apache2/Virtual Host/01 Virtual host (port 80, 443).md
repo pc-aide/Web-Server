@@ -32,6 +32,7 @@ openssl x509 -req -days 365 -in /etc/ssl/certs/siteB.csr -signkey /etc/ssl/certs
 mkdir /var/www/site{A,B}
 
 ## /etc/apache2/sites-enable/000-default.conf
+````Virtual host
 <VirtualHost *:80>
         ServerName siteA.com
         ServerAlias www.siteA.com
@@ -53,6 +54,7 @@ mkdir /var/www/site{A,B}
         SSLCertificateFile /etc/ssl/certs/siteB.crt
         SSLCertificateKeyFile /etc/ssl/certs/siteB.key
 </VirtualHost>
+````
 
 ## Reload
 systemctl reload apache2
