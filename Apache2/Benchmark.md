@@ -2,6 +2,7 @@
 
 ## Acronym
 * TG - Target Group
+* LB - Load Balancer
 * ELB - Elastic Load Balancer
 
 ## Util
@@ -34,4 +35,6 @@ ab -n 100 -c 5 http://<ELB>
 
 [<img src="https://i.imgur.com/3hNJ6Qk.png">](https://i.imgur.com/3hNJ6Qk.png)
 
-* ELB:
+* LB:
+
+[<img src="https://i.imgur.com/Ii7cm79.png">](https://i.imgur.com/Ii7cm79.png)
